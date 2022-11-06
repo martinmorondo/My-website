@@ -50,8 +50,11 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Empleo</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#services">Practicar</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Cursos</a></li>
+          <li><a class="nav-link scrollto " href="#ingles">Inglés</a></li>
+          <li><a class="nav-link scrollto " href="#books">Libros</a></li>
+          <li><a class="nav-link scrollto " href="#documents">Documentación</a></li>
           <li><a class="nav-link scrollto" href="#team">Influencers</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -70,7 +73,6 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -86,8 +88,8 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>Estudiando programación<span>.</span></h1>
-          <h2>Cursos gratis, ofertas de empleo, creadores de contenido IT, ejercicios, documentaciones.</h2>
+          <h1>Recursos para Programadores<span>.</span></h1>
+          <h2>Cursos gratis, ofertas de empleo, creadores de contenido, ejercicios, documentaciones, libros en pdf.</h2>
         </div>
       </div>
 
@@ -192,31 +194,35 @@
     </section><!-- End Clients Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <section id="ingles" class="features">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");' data-aos="fade-right"></div>
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-receipt"></i>
-              <h4>Est labore ad</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+          <h3 class = "text-center mb-4">Cursos de inglés gratis</h3>
+          <div class="image col-lg-4" style='background-image: url("assets/img/ingles.jpg"); border-radius: 30px; background-position: 10%; background-size: contain;' data-aos="fade-right"></div>
+          <div class="col-lg-4 col-md-3">
+            <div class="">
+              <img src="assets/img/ingles-linguaia.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso de Inglés (todos los niveles)</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/ingles-linguaia.png" target="_blank" title="Inglés"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.lingualia.com/landing/ads-201912/?idaff=19&idweb=78&learnlang=en&defuilang=es" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
             </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-cube-alt"></i>
-              <h4>Harum esse qui</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-images"></i>
-              <h4>Aut occaecati</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-shield"></i>
-              <h4>Beatae veritatis</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="">
+              <img src="assets/img/ingles-aula-facil.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cursos de Inglés gratis</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/ingles-aula-facil.png" target="_blank" title="Inglés Aula fácil"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.aulafacil.com/cursos/ingles-c90" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -229,8 +235,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
+          <h2>Practica lo estudiado</h2>
+          <p>Páginas para practicar con código</p>
         </div>
 
         <div class="row">
@@ -312,30 +318,96 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos los cursos</li>
+              <li data-filter=".filter-introd-prog" class="filter-active">Introd a la programación</li>
               <li data-filter=".filter-html-css" id="html">HTML-CSS</li>
               <li data-filter=".filter-javascript" id="javascript">Javascript</li>
+              <li data-filter=".filter-typescript" id="typescript">Typescript</li>
               <li data-filter=".filter-react" id = "react">React</li>
+              <li data-filter=".filter-angular" id = "angular">Angular</li>
+              <li data-filter=".filter-nodejs" id = "nodejs">Node js</li>
               <li data-filter=".filter-git" id = "git">Git</li>
               <li data-filter=".filter-github" id = "github">GitHub</li>
               <li data-filter=".filter-fullstack" id = "full-stack">Full Stack</li>
-              <!-- <li data-filter="*" class="filter-active">HTML-CSS</li>
-              <li data-filter="*" class="filter-active">HTML-CSS</li>
-              <li data-filter="*" class="filter-active">HTML-CSS</li> -->
+              
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-html-css">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-introd-prog">
             <div class="portfolio-wrap">
-              <img src="assets/img/responsive-design.png" class="img-fluid" alt="">
+              <img src="assets/img/introd-prog.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Diseño Web Responsivo</h4>
+                <h4>Curso de introducción a la programación</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/responsive-design-2.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/introd-prog.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Introducción a la Programación"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/introduccion" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-introd-prog">
+            <div class="portfolio-wrap">
+              <img src="assets/img/terminal-codigo-facilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso de comandos básicos para la Terminal</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/terminal-codigo-facilito.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Introducción a la Programación"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/comandos-terminal" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-introd-prog">
+            <div class="portfolio-wrap">
+              <img src="assets/img/terminal-ed-team.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso: Introducción a la terminal</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/terminal-ed-team.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Introducción a la terminal"><i class="bx bx-plus"></i></a>
+                  <a href="https://app.ed.team/cursos/terminal-linux" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-introd-prog">
+            <div class="portfolio-wrap">
+              <img src="assets/img/introd-prog-keep-coding.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso de desarrollo de apps para no programadores</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/introd-prog-keep-coding.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Introducción a la Programación"><i class="bx bx-plus"></i></a>
+                  <a href="https://plataforma.keepcoding.io/p/curso-gratuito-introduccion-programacion" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-introd-prog">
+            <div class="portfolio-wrap">
+              <img src="assets/img/prog-basica-platzi.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso Gratis de Programación Básica</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/prog-basica-platzi.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Programación básica"><i class="bx bx-plus"></i></a>
+                  <a href="https://platzi.com/cursos/programacion-basica/?utm_source=Iterable&utm_medium=email&utm_campaign=20220803-AD-FreesDesarrollo-Lanzamiento-ProgBasica" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-introd-prog">
+            <div class="portfolio-wrap">
+              <img src="assets/img/ruta-des-web.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso: La ruta del desarrollador web</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/ruta-des-web.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="La ruta del desarrollador web"><i class="bx bx-plus"></i></a>
+                  <a href="https://app.ed.team/cursos/web" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -362,6 +434,58 @@
                 <div class="portfolio-links">
                   <a href="assets/img/html-css-khan-academy.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Introd HTML-CSS"><i class="bx bx-plus"></i></a>
                   <a href="https://es.khanacademy.org/computing/computer-programming/html-css#intro-to-html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html-css">
+            <div class="portfolio-wrap">
+              <img src="assets/img/html-codigo-facilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso para crear mi primera página web</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/html-codigo-facilito.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso HTML"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/primera-pagina-2019" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html-css">
+            <div class="portfolio-wrap">
+              <img src="assets/img/css-codigofacilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso de CSS Básico Gratis</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/css-codigofacilito.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso CSS3"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/CSS-old" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html-css">
+            <div class="portfolio-wrap">
+              <img src="assets/img/html-css-keep-coding.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso de Desarrollo Web con HTML5 y CSS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/html-css-keep-coding.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Desarrollo web HTML5 y CSS"><i class="bx bx-plus"></i></a>
+                  <a href="https://plataforma.keepcoding.io/p/desarrollo-web-html5-css-gratis" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html-css">
+            <div class="portfolio-wrap">
+              <img src="assets/img/responsive-design.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Diseño Web Responsivo</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/responsive-design-2.png" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -406,15 +530,14 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-typescript">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/typescript-codigo-facilito.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <h4>Curso de TypeScript</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/typescript-codigo-facilito.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso de Typescript"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/typescript" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -422,13 +545,90 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-react">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/react-keep-coding.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>Curso de React desde Cero</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/react-keep-coding.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="React desde 0"><i class="bx bx-plus"></i></a>
+                  <a href="https://plataforma.keepcoding.io/p/curso-react-desde-cero" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/react-codigo-facilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso gratis de React con ejercicios prácticos</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/react-codigo-facilito.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso de React js"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/react-ejercicios" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/fundamentos-react-cod-facilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso fundamentos de React</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/fundamentos-react-cod-facilito.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fundamentos de React JS"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/react-intro-gratis" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-angular">
+            <div class="portfolio-wrap">
+              <img src="assets/img/angular-keep-coding.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso AngularJS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/angular-keep-coding.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso AngularJS"><i class="bx bx-plus"></i></a>
+                  <a href="https://plataforma.keepcoding.io/p/curso-fundamentos-angular-html-css" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-angular">
+            <div class="portfolio-wrap">
+              <img src="assets/img/angular-codigo-facilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso de AngularJS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/angular-codigo-facilito.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso AngularJS"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/angularjs" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nodejs">
+            <div class="portfolio-wrap">
+              <img src="assets/img/nodejs-codigo-facilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Curso de NodeJS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/nodejs-codigo-facilito.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso de Node js"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/nodejs" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nodejs">
+            <div class="portfolio-wrap">
+              <img src="assets/img/nodejs-codigo-facilito.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Creación de aplicaciones de JavaScript con Node.js</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/nodejs-codigo-facilito.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso de Node js"><i class="bx bx-plus"></i></a>
+                  <a href="https://learn.microsoft.com/es-es/training/paths/build-javascript-applications-nodejs/" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -463,13 +663,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-git">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/git-codigo-facilito.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>Curso Profesional de Git</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/git-codigo-facilito.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Curso profesional de Git"><i class="bx bx-plus"></i></a>
+                  <a href="https://codigofacilito.com/cursos/git-profesional" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -560,14 +759,14 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <section id="books" class="counts">
       <div class="container" data-aos="fade-up">
 
         <div class="row no-gutters">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
             <div class="content d-flex flex-column justify-content-center">
-              <h3>Voluptatem dignissimos provident quasi</h3>
+              <h3>Libros en pdf</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
               </p>
@@ -614,6 +813,7 @@
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
+        <h3 class = "text-center text-danger fw-bold">Juegos con código</h3>
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
             
@@ -777,7 +977,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="documents" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
