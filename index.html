@@ -50,9 +50,9 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Empleo</a></li>
-          <li><a class="nav-link scrollto" href="#services">Practicar</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Cursos</a></li>
           <li><a class="nav-link scrollto " href="#ingles">Inglés</a></li>
+          <li><a class="nav-link scrollto" href="#practice">Practicar</a></li>
+          <li><a class="nav-link scrollto " href="#courses">Cursos</a></li>
           <li><a class="nav-link scrollto " href="#books">Libros</a></li>
           <li><a class="nav-link scrollto " href="#games">Juegos</a></li>
           <li><a class="nav-link scrollto" href="#team">Influencers</a></li>
@@ -286,7 +286,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="practice" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -362,7 +362,7 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <section id="courses" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -373,7 +373,7 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-introd-prog" class="filter-active">Introd a la programación</li>
+              <li data-filter=".filter-introd-prog" id = "introd-prog" class="filter-active">Introd a la programación</li>
               <li data-filter=".filter-html-css" id="html">HTML-CSS</li>
               <li data-filter=".filter-javascript" id="javascript">Javascript</li>
               <li data-filter=".filter-typescript" id="typescript">Typescript</li>
@@ -383,7 +383,7 @@
               <li data-filter=".filter-git" id = "git">Git</li>
               <li data-filter=".filter-github" id = "github">GitHub</li>
               <li data-filter=".filter-fullstack" id = "full-stack">Full Stack</li>
-              
+              <li data-filter="none" id = "courses" >None</li>   
             </ul>
           </div>
         </div>
@@ -1175,6 +1175,15 @@
                   </div>
                 </div>
               </div>
+              
+              <div class="col-lg-4 col-md-4">
+                <img src="assets/img/Captura de pantalla 2022-11-06 221256.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <p><a href="./assets/img/99-tips-para-web-development.pdf" download="Tips Des Web" class="btn btn purple-gradient btn-lg wow fadeInUp waves-effect waves-light" style="visibility: visible; animation-name: fadeInUp; animation-iteration-count: 1;">99 Tips para Desarrolladores Web<i class="fas fa-file-download ml-2" aria-hidden="true" ></i> </a></p>
+                  </div>
+                </div>
+              </div>
 
             <div class="col-lg-4 col-md-4">
                 <img src="assets/img/ing-del-software.png" class="img-fluid" alt="">
@@ -1337,70 +1346,21 @@
     <section id="documents" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </div>
+        <div class="row">
+          <h3 class = "text-center mb-4">Documentación</h3>
+          <!-- <div class="image col-lg-4" style='background-image: url("assets/img/"); border-radius: 30px; background-position: 10%; background-size: contain;' data-aos="fade-right"></div> -->
 
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+          <div class="col-lg-4 col-md-4">
+              <a href=""><img src="assets/img/js-org.png" class="img-fluid" alt=""></a> 
+              <div class="portfolio-info">
+                <h4>Tutorial interactivo de JavaScript</h4>
+                <div class="portfolio-links">
+                  <a href="https://www.learn-js.org/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
               </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
             </div>
 
           </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
       </div>
     </section><!-- End Contact Section -->
 
