@@ -153,6 +153,7 @@ h6 {
 
 #header .logo a {
   color: #fff;
+  margin-left: -60px;
 }
 
 #header .logo a span {
@@ -161,6 +162,13 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  #header .logo a {
+    color: #fff;
+    margin: 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -417,7 +425,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(https://aws.wideinfo.org/myupdatestudio.com/wp-content/uploads/2018/01/04171241/Application-Development.jpg) top center;
+  background: url(https://w.wallhaven.cc/full/y8/wallhaven-y85ojk.png) top center;
   /* background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
   position: relative;
@@ -441,11 +449,20 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  /* margin-top: -50px; */
   font-size: 56px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 64px;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  transition: .3s;
+  text-shadow: 0px 0px 8px gray;
+}
+
+#hero h1:hover {
+  color: #18d26e;
+  transform: translateY(-25px);
+  text-shadow: 0px 0px 8px #101814;
 }
 
 #hero h1 span {
@@ -578,6 +595,14 @@ section {
   position: relative;
 }
 
+.about .content ul li a {
+  transition: color 1s;
+}
+
+.about .content ul li a:hover {
+  color: rgb(61, 247, 148);
+}
+
 .about .content ul i {
   position: absolute;
   font-size: 20px;
@@ -588,6 +613,10 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about .container .row img {
+  border-radius: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -819,6 +848,7 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  border-radius: 15px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -874,7 +904,7 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
@@ -1574,3 +1604,4 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
