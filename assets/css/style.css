@@ -186,7 +186,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
+  background: #5d38ff;
   color: #343a40;
 }
 
@@ -330,6 +330,10 @@ h6 {
   }
 
   .navbar ul {
+    display: none;
+  }
+
+  .cv {
     display: none;
   }
 }
@@ -576,9 +580,16 @@ section {
   color: #151515;
 }
 
+@media (max-width: 768px) {
+  .section-title h2::after {
+    background: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
@@ -615,8 +626,9 @@ section {
   margin-bottom: 0;
 }
 
-.about .container .row img {
+.about .container .row .img-fluid {
   border-radius: 30px;
+  background-position: 50%;
 }
 
 /*--------------------------------------------------------------
