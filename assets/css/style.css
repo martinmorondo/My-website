@@ -1303,8 +1303,6 @@ section {
   opacity: 1;
   padding-top: 0;
 }
-
-
 /* # Footer */
 #footer {
   background: black;
@@ -1423,4 +1421,12 @@ section {
   color: #fff;
 }
 
+@media (max-width: 992px) {
+  #footer .footer-top .footer-links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 
+  }
+}
