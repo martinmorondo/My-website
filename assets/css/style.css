@@ -1057,17 +1057,18 @@ section {
   border-radius: 4px;
   width: 36px;
   height: 36px;
-  background: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(to bottom, red, purple, pink);
   transition: ease-in-out 0.3s;
   color: #070707;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 0px 0px 8px gray;
 }
 
 .team .member .social a:hover {
-  color: #151515;
-  background: #ffc451;
+  background: #cdef09;
+  color: white;
 }
 
 .team .member .social i {
@@ -1125,9 +1126,7 @@ section {
   }
 }
 
-
 /* # Education */
-
 .education {
   background: #000000;
   padding: 60px 0;
@@ -1172,7 +1171,7 @@ section {
 
 .education .member .social a {
   transition: color 0.3s;
-  color: rgba(1, 41, 112, 0.5);
+  color: black;
   margin: 15px 12px;
   display: block;
   line-height: 0;
@@ -1180,11 +1179,12 @@ section {
 }
 
 .education .member .social a:hover {
-  color: rgba(1, 41, 112, 0.8);
+  color: red;
+  transform: scale(1.10);
 }
 
 .education .member .social i {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .education .member .member-info {
@@ -1224,7 +1224,6 @@ section {
 }
 
 /* # Breadcrumbs */
-
 .breadcrumbs {
   padding: 15px 0;
   background: whitesmoke;
