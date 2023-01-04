@@ -1374,6 +1374,103 @@ section {
   opacity: 1;
   padding-top: 0;
 }
+
+/* Podcast  */
+.podcast .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 20px;
+  background: linear-gradient(270deg, #3f1c45, #523168, #591a93);
+  transition: 0.5s;
+}
+
+.podcast .member .podcast-pic {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.podcast .member .podcast-pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.podcast .member:hover {
+  transform: translateY(-10px);
+}
+
+.podcast .member .podcast-info {
+  padding-left: 30px;
+}
+
+.podcast .member h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.podcast .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+  color: black;
+}
+
+.podcast .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 2px;
+  background: #cbd6e9;
+  bottom: 0;
+  left: 0;
+}
+
+.podcast .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.podcast .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.podcast .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #eff2f8;
+}
+
+.podcast .member .social a i {
+  color: #37517e;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.podcast .member .social a:hover {
+  background: #1ED760;
+}
+
+.podcast .member .social a:hover i {
+  color: #fff;
+}
+
+.podcast .member .social a+a {
+  margin-left: 8px;
+}
+
 /* # Footer */
 #footer {
   background: black;

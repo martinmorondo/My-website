@@ -21,15 +21,14 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- =======================================================
-  * Template Name: Gp - v4.9.1
+  <!-- * Template Name: Gp - v4.9.1
   * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
   * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  * License: https://bootstrapmade.com/license/ -->
   <meta name="google-site-verification" content="LkYnTS2MOmOB7duJAmNgwzDgji1_2j_9qatRFrtTI7A" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3563835760162281"
      crossorigin="anonymous"></script>
+  <link href="styles/ihover.css" rel="stylesheet">
 </head>
 <body>
   <!-- ======= Header ======= -->
@@ -48,13 +47,14 @@
           <li><a class="nav-link scrollto" href="#influencers">Influencers</a></li>
           <li><a class="nav-link scrollto " href="#document">Documentación</a></li>
           <li><a class="nav-link scrollto " href="#education">Formaciones</a></li>
-          <!-- <li><a class="nav-link scrollto " href="#podcast">Podcasts</a></li>
-          <li><a class="nav-link scrollto " href="#document">Proyectos</a></li>
-          <li><a class="nav-link scrollto " href="#document">Pomodoro</a></li> -->
+          <li><a class="nav-link scrollto " href="#podcast">Podcasts</a></li>
+          <!-- <li><a class="nav-link scrollto " href="#document">Proyectos</a></li>
+          <li><a class="nav-link scrollto " href="#document">Pomodoro</a></li>
+          <li><a class="nav-link scrollto " href="#cv">CV</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="https://www.resumemaker.online/es" target="_blank" class="cv custom-btn btn-7">Crea tu CV gratis</a>
+      <!-- <a href="https://www.resumemaker.online/es" target="_blank" class="cv custom-btn btn-7">Crea tu CV gratis</a> -->
     </div>
   </header><!-- End Header -->
 
@@ -1163,20 +1163,87 @@
           </div>
 
         </div>
-
-        <div class="comments">
-          <h3 class="text-center mt-2 p-0 text-danger">Comentarios</h3>
-          <script src="https://utteranc.es/client.js"
-          repo="martinmorondo/gestion-comentarios"
-          issue-term="pathname"
-          theme="gruvbox-dark"
-          crossorigin="anonymous"
-          class = "mt-0 pt-0"
-          async>
-          </script>
-          </div>
       </div>
     </section><!-- End Team Section -->
+
+    <!-- ======= Podcast Section ======= -->
+    <section id="podcast" class="podcast section-bg">
+      <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+              <h2>Para escuchar mientras codeas👌</h2>
+              <p class = "text-danger">Podcast</p>
+            </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="podcast-pic"><img src="assets/img/midu.png" class="img-fluid" alt="midudev-podcast"></div>
+              <div class="podcast-info">
+                <h4>Programación Javascript y Desarrollo Web</h4>
+                <span>Dedicado al mundo frontend y el desarrollo web. Se habla de JavaScript, las tendencias en HTML, CSS, el mundo de la programación en general y más.</p>
+                <div class="social">
+                  <a href="https://open.spotify.com/show/1Et8hZk1DwKw6PtBFGpwSD" target="_blank"> <i class="ri-spotify-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="podcast-pic"><img src="assets/img/prog-101.png" class="img-fluid" alt="programacion-101" style="height: 165px; width: 370px;"></div>
+                  <div class="podcast-info">
+                    <h4>Programación 101</h4>
+                    <span>Este es un podcast donde se habla de programación, soft skills, y más.</p>
+                    <div class="social">
+                      <a href="https://open.spotify.com/show/6w3lJ6KQ0vMbp0IAobXzEM" target="_blank"> <i class="ri-spotify-fill"></i> </a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="podcast-pic"><img src="assets/img/daily-bug.jpg" class="img-fluid" alt="podcast-daily-bugs" style="height: 180px; width: 370px;"></div>
+                  <div class="podcast-info">
+                    <h4>Daily bugs</h4>
+                    <span>Podcast de programación en donde resolveremos esos bugs mentales que detienen tu aprendizaje.</p>
+                    <div class="social">
+                      <a href="https://open.spotify.com/show/38fieckNwjpqWTtiPwiJ4i" target="_blank"> <i class="ri-spotify-fill"></i> </a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="podcast-pic"><img src="assets/img/se-habla-codigo.jpg" class="img-fluid" alt="se-habla-codigo-podcast" style="height: 180px; width: 370px;"></div>
+                  <div class="podcast-info">
+                    <h4>Se habla código</h4>
+                    <span>Un podcast sobre programación para web y anécdotas del programador.</p>
+                    <div class="social">
+                      <a href="https://open.spotify.com/show/7yzLFD8FB57LYHvSAkWJMR" target="_blank"> <i class="ri-spotify-fill"></i> </a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="comments mt-5">
+        <h3 class="text-center mt-2 p-0 text-danger">Comentarios</h3>
+        <script src="https://utteranc.es/client.js"
+        repo="martinmorondo/gestion-comentarios"
+        issue-term="pathname"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        class = "mt-0 pt-0"
+        async>
+        </script>
+        </div>
+    </section> 
 
   </main><!-- End #main -->
   <!-- ======= Footer ======= -->
