@@ -301,12 +301,19 @@ button {
   margin-left: 5px;
 }
 
+.navbar a:hover {
+  transform: translateY(-10px);
+  font-weight: bold;
+}
+
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  color: #51ff60;
 }
+
+
 
 .navbar .dropdown ul {
   display: block;
@@ -373,9 +380,8 @@ button {
     left: -100%;
   }
 }
-/**
-* Mobile Navigation 
-*/
+
+/* * Mobile Navigation  */
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
