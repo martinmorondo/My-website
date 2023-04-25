@@ -37,8 +37,8 @@
       <h1 class="logo me-auto me-lg-0"><a href="index.html">MM<span>.</span></a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Empleo</a></li>
+          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#job">Empleo</a></li>
           <li><a class="nav-link scrollto " href="#ingles">Inglés</a></li>
           <li><a class="nav-link scrollto " href="courses.html" target = "_blank">Cursos</a></li>
           <li><a class="nav-link scrollto" href="#practice">Practicar</a></li>
@@ -58,8 +58,8 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center">
+  <!-- ======= Home Section ======= -->
+  <section id="home" class="d-flex align-items-center justify-content-center">
     <div class="container mt-0 p-0" data-aos="fade-up">
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
@@ -68,35 +68,47 @@
         </div>
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section><!-- End Home -->
 
   <main id="main">
     <!-- ======= Jobs section ======= -->
-    <section id="about" class="about">
+    <section id="job" class="job">
       <div class="container" data-aos="fade-up">
-
         <div class="row">
-          <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-          </div> -->
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3 class = "text-danger">Ofertas de empleo más relevantes de hoy</h3>
+            <h3 class="text-danger">Ofertas de empleo más relevantes de hoy</h3>
             <p class="fst-italic text-light">
               En esta sección iré subiendo todas las ofertas de empleo que iré encontrando, tanto para Trainees, como para Juniors
             </p>
-            <ul>
-              <li><a href="https://www.linkedin.com/jobs/view/3543839465/?alternateChannel=search&refId=z7kzP1OZqDmtJCaIEtqQ7A%3D%3D&trackingId=38DMIC4mUpp40l2M%2BpyWQQ%3D%3D" target="_blank"><i class="ri-check-double-line"></i>Desarrollador WEB Junior (Remoto)</a></li>
-              <li><a href="https://www.linkedin.com/jobs/view/3529500244/?alternateChannel=search&refId=8jh6UHjc%2BLECYBnxVBhgpg%3D%3D&trackingId=sQ9x32wqaXkn9HMoJC2%2FUA%3D%3D" target="_blank"><i class="ri-check-double-line"></i>Programador E-commerce JR (Remoto)</a></li>
-              <li><a href="https://www.linkedin.com/jobs/view/3533303887/?alternateChannel=search&refId=f3uPk7lrHCevRFKvsWmUhA%3D%3D&trackingId=pCxko3u9cBrHZAutA0PzWQ%3D%3D" target="_blank"><i class="ri-check-double-line"></i>Desarrollador Full Stack Jr (Híbrido)</a></li>
-              <li><a href="https://www.linkedin.com/jobs/view/3535039636/?alternateChannel=search&refId=gAt63QK7DkPpa1vaMTJUMw%3D%3D&trackingId=oer3xR7aFTDqz8Cs6hg%2Brw%3D%3D" target="_blank"><i class="ri-check-double-line"></i>JS Frontend Developer (Remoto)</a></li>
-              <li><a href="https://www.linkedin.com/jobs/view/3513265297/?trackingId=QTqqvN3bTi2Mwz%2B0iBz6oQ%3D%3D&refId=rz0ZTay9Q2ma5jFIQx049w%3D%3D&midToken=AQH4Epb1t5P3Mg&midSig=2oreGjGHnFSGE1&trk=eml-jobs_jymbii_digest-job_card-0-jobcard_body&trkEmail=eml-jobs_jymbii_digest-job_card-0-jobcard_body-null-9ivbl8~lf2pb7sa~ob-null-null&eid=9ivbl8-lf2pb7sa-ob" target="_blank"><i class="ri-check-double-line"></i> Vue.Js Devs (Part Time- Remoto)</a></li>
-              <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7038565880007409664/" target="_blank"><i class="ri-check-double-line"></i> Desarrollador Frontend JR (Híbrido)</a></li>
-              <li><a href="https://www.linkedin.com/jobs/view/3500427885/?alternateChannel=search&refId=EPHAtd0Y8ZsSaUAUsuc9Zw%3D%3D&trackingId=TtGTN%2BQJE8cnXaBkHIbtgg%3D%3D" target="_blank"><i class="ri-check-double-line"></i>Sumate al Equipo IT - ICBC Argentina - (Híbrido)</a></li>
-              <li><a href="https://www.linkedin.com/jobs/view/3500026180/?alternateChannel=search&refId=EPHAtd0Y8ZsSaUAUsuc9Zw%3D%3D&trackingId=tQlOgOL%2BgA6q9lGbYgpA9Q%3D%3D" target="_blank"><i class="ri-check-double-line"></i>Programa de Jóvenes Profesionales (Híbrido)</a></li>
+            <form id="job-search-form">
+              <div class="input-group mb-3">
+                <select class="form-select mx-2" name="job-category" aria-label="Job Category">
+                  <option selected disabled>Selecciona una habilidad</option>
+                  <option value="backend">Back-end</option>
+                  <option value="frontend">Front-end</option>
+                  <option value="fullstack">Full Stack</option>
+                  <option value="soporte">Soporte</option>
+                  <option value="data">Data</option>
+                  <option value="junior">Junior varios</option>
+                </select>
+                <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+              </div>
+            </form>
+            <ul id="job-list">
+              <li class="soporte"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7056367283291533312/" target="_blank"><i class="ri-check-double-line"></i>Técnicos Nivel 1 (Presencial)</a></li>
+              <li class="data"><a href="https://www.linkedin.com/jobs/view/3576734545/" target="_blank"><i class="ri-check-double-line"></i>KCP Data Analyst Trainee (Presencial)</a></li>
+              <li class="junior"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7054535499486552064/?utm_source=share&utm_medium=member_android" target="_blank"><i class="ri-check-double-line"></i>QA JR / BUSINESS ANALYST JR / AWS DATA ENGINEER JR</a></li>
+              <li class="backend"><a href="https://www.linkedin.com/posts/vantek.co_programador-desafaedos-java-activity-7055241321921282048-qwbn/?utm_source=share&utm_medium=member_android" target="_blank"><i class="ri-check-double-line"></i>Desarrollador Java JR</a></li>
+              <li class="frontend"><a href="https://www.linkedin.com/jobs/view/3578322456/?alternateChannel=search&refId=hwTi7o%2Bcu39ozIpoYREwTQ%3D%3D&trackingId=QXeV%2F%2BHPN0j7t6zrGZsrYA%3D%3D" target="_blank"><i class="ri-check-double-line"></i>Perfiles Frontend: Angular, React</a></li>
+              <li class="backend"><a href="https://www.glassdoor.com.ar/job-listing/programador-php-junior-jph-lions-JV_IC2207815_KO0,22_KE23,32.htm?jl=1007735946212&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic" target="_blank"><i class="ri-check-double-line"></i>Programador PHP Junior</a></li>
+              <li class="fullstack"><a href="https://www.sercanto.com.ar/detail/a/programador-fullstack-jr-ssr-react_ciudad-general-martin-miguel-de-guemes_59967340?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic" target="_blank"><i class="ri-check-double-line"></i>Programador Fullstack Jr React
+              </a></li>
             </ul>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
+            </div>
+            </div>
+            </div>
+    </section>
+    <!-- End Job Section -->
 
     <!-- ======= Job websites Section ======= -->
     <section id="clients" class="clients">
@@ -450,12 +462,12 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Cafecito Section ======= -->
-    <section id="cta" class="cta">
+    <section id="cafecito" class="cafecito">
       <div class="container" data-aos="zoom-in">
         <div class="text-center">
           <h3>Cafecito</h3>
           <p>Aportando lo que sea me ayudas a seguir construyendo cada día esta página.</p>
-          <a class="cta-btn" href="https://cafecito.app/martinmorondo" target="_blank">Mi cafecito 😁</a>
+          <a class="cafecito-btn" href="https://cafecito.app/martinmorondo" target="_blank">Mi cafecito 😁</a>
         </div>
       </div>
     </section><!-- End Cta Section -->
@@ -1417,5 +1429,6 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script> 
+  <script src="assets/js/job.js"></script>
 </body>
 </html>
